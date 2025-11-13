@@ -1,0 +1,11 @@
+header{
+    background-color: #11F528;
+    color: #3d3d3d;
+}
+header img{
+    width: 80px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
