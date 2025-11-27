@@ -1,9 +1,50 @@
+*{
+    font-size: 20px;
+}
+h1{
+    font-size: 2rem;
+}
+h2,h3{
+    font-size: 1.5rem;
+}
 header{
     background-color: #11F528;
     color: #3d3d3d;
 }
 header img{
     width: 80px;
+}
+header>*{
+    width: 1000px;
+    margin: auto;
+}
+main{
+    background-color: #f4f4f4;
+}
+main>iframe{
+    width: 1000px;
+    height: 562px;
+    margin: auto;
+    margin-top: 2rem;
+    display: block;
+}
+main>div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 2rem;
+}
+main>div>img{
+    width: 400px;
+}
+main>section{
+    width: 500px;
+    background-color: #FFF;
+    margin: auto;
+    text-align: center;
+}
+main>section>i{
+    color: #11F574;
+    font-size: 3rem;
 }
 .d-flex{
     display: flex;
